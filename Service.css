@@ -37,15 +37,15 @@
 }
 
 .service__logo--txt:nth-child(1){
-    background-image: url(../img/direction.png);
+    background-image: url(https://kiteretsu18.github.io/portfolio/direction.png);
     background-size: contain;
 }
 .service__logo--txt:nth-child(2){
-    background-image: url(../img/design.png);
+    background-image: url(https://kiteretsu18.github.io/portfolio/design.png);
     background-size: contain;
 }
 .service__logo--txt:nth-child(3){
-    background-image: url(../img/coding.png);
+    background-image: url(https://kiteretsu18.github.io/portfolio/coding.png);
     background-size: contain;
 }
 
