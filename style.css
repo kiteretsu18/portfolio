@@ -84,7 +84,7 @@ body{
 }
 
 .header__kv{
-    background-image: url(../img/header_kv.jpeg);
+    background-image: url(https://kiteretsu18.github.io/portfolio/header_kv.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #2E4182;
@@ -168,7 +168,7 @@ body{
 }
 
 .main__nav--item{
-    background-image: url(../img/main__nav__item.png);
+    background-image: url(https://kiteretsu18.github.io/portfolio/main__nav__item.png);
     width: 568px;
     height: 600px;
     background-repeat: no-repeat;
