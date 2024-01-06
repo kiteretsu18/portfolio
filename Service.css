@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* serviceのスタイル */
+.main__service{
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.service__ttl{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.service__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.service__logo--txt{
+    width: 250px;
+    height: 250px;
+}
+
+.service__logo--txt p{
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 30px auto;
+    max-width: 200px;
+} 
+
+.service__logo--txt:nth-child(n+2){
+    margin-left: 100px;
+}
+
+.service__logo--txt:nth-child(1){
+    background-image: url(../img/direction.png);
+    background-size: contain;
+}
+.service__logo--txt:nth-child(2){
+    background-image: url(../img/design.png);
+    background-size: contain;
+}
+.service__logo--txt:nth-child(3){
+    background-image: url(../img/coding.png);
+    background-size: contain;
+}
+
+.service__info{
+    font-size: 16px;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+.service__txt:nth-child(4){
+    margin-top: 30px;
+}
+.service__txt:nth-child(6){
+    margin-top: 30px;
+}
+
+/* レスポンシブのスタイル */
+@media (max-width: 375px){
+    .main__service{
+        margin-top: 160px;
+        text-align: center;
+ 
+    }
+
+    .service__logo{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .service__logo--txt{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service__txt{
+        font-size: 8px;
+    }
+
+    .service__logo--txt:nth-child(n+2){
+        margin-left: auto;
+        margin-right: auto;    }
+
+}

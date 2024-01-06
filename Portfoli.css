@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* ポートフォリオのスタイル */
+
+.main__portfolio{
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.portfolio__ttl{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.portfolio__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.portfolio__logo--img{
+    width: 256px;
+    height: 256px;
+}
+
+.portfolio__logo--img:nth-of-type(n+2){
+    margin-left: 100px;
+}
+
+.portfolio__logo--txt{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.portfolio__info{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.portfolio__info.first{
+    margin-top: 80px;
+}
+
+.work{
+    margin-top: 40px;
+}
+
+.work__ttl{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.work__info{
+    display: flex;
+    margin-top: 40px;
+}
+
+.work__img{
+    width: 500px;
+    height: 300px;
+}
+
+@media (max-width: 375px){
+    .main__portfolio{
+        margin-top: 160px;
+        text-align: center;
+    }
+
+    .portfolio__logo{
+        display: block;
+    }
+
+    .portfolio__logo--img{
+        width: 256px;
+        height: 256px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .portfolio__logo--img:nth-of-type(n+2){
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .portfolio__info{
+        font-size: 10px;
+    }
+
+    .work__info{
+        display: block;
+    }
+
+}
