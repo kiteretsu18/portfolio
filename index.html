@@ -11,11 +11,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kiteretsu18.github.io/portfolio/script.js"></script>
+
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="header">
+
+        <!-- ハンバーガーメニュー -->
+        <div id="navArea">
+            <nav class="nav">
+                <div class="inner">
+                    <ul>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Service.html">Service</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="http://www.kiteretsubmw.com/" target="_blank">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="toggle__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="mask"></div>
+        </div>
+
+
         <div class="header__list">
             <a href="index.html"><div class="header__logo">
                 <img src="https://kiteretsu18.github.io/portfolio/logo.png" alt="" class="header__img--logo">
@@ -23,10 +48,10 @@
             </div></a>
             <div class="header__nav">
                 <ul class="header__nav--list">
-                    <li class="header__nav--item"><a href="https://kiteretsu18.github.io/portfolio/About.html" class="header__nav--link">About</a></li>
-                    <li class="header__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Service.html" class="header__nav--link">Service</a></li>
-                    <li class="header__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Portfolio.html" class="header__nav--link">Portfolio</a></li>
-                    <li class="header__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Contact.html" class="header__nav--link">Contact</a></li>
+                    <li class="header__nav--item"><a href="About.html" class="header__nav--link">About</a></li>
+                    <li class="header__nav--item"><a href="Service.html" class="header__nav--link">Service</a></li>
+                    <li class="header__nav--item"><a href="Portfolio.html" class="header__nav--link">Portfolio</a></li>
+                    <li class="header__nav--item"><a href="Contact.html" class="header__nav--link">Contact</a></li>
                     <li class="header__nav--item"><a href="http://www.kiteretsubmw.com/" class="header__nav--link" target="_blank">Blog</a></li>
                 </ul>
                 <div class="header__nav--sns">
@@ -66,28 +91,28 @@
     <main class="main">
         <section class="main__container">
             <div class="main__nav">
-               <a href="https://kiteretsu18.github.io/portfolio/About.html">
+               <a href="About.html">
                     <div class="main__nav--item">
                         <h2 class="main__nav--ttl">About</h2>
                         <p class="main__nav--txt">自動車メカニックからWEB制作へ</p>
                         <p class="main__nav--txt">経歴を紹介します。</p>
                     </div>
                 </a> 
-               <a href="https://kiteretsu18.github.io/portfolio/Service.html">
+               <a href="Service.html">
                     <div class="main__nav--item">
                         <h2 class="main__nav--ttl">Service</h2>
                         <p class="main__nav--txt">・ディレクション <br>・デザイン <br>・コーディング</p>
                         <p class="main__nav--txt">お客様の要望に沿って <br>WEBページを作成致します。</p>
                     </div>
                 </a> 
-               <a href="https://kiteretsu18.github.io/portfolio/Portfolio.html">
+               <a href="Portfolio.html">
                     <div class="main__nav--item">
                         <h2 class="main__nav--ttl">Portfolio</h2>
                         <p class="main__nav--txt">対応可能な仕事</p>
                         <p class="main__nav--txt">制作一覧</p>
                     </div>
                 </a> 
-               <a href="https://kiteretsu18.github.io/portfolio/Contact.html">
+               <a href="Contact.html">
                     <div class="main__nav--item">
                         <h2 class="main__nav--ttl">Contact</h2>
                         <p class="main__nav--txt">お問い合わせはこちらへ</p>
@@ -110,10 +135,10 @@
     <footer class="footer">
         <div class="footer__nav">
             <ul class="footer__nav--list">
-                <li class="footer__nav--item"><a href="https://kiteretsu18.github.io/portfolio/About.html" class="header__nav--link">About</a></li>
-                <li class="footer__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Service.html" class="header__nav--link">Service</a></li>
-                <li class="footer__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Portfolio.html" class="header__nav--link">Portfolio</a></li>
-                <li class="footer__nav--item"><a href="https://kiteretsu18.github.io/portfolio/Contact.html" class="header__nav--link">Contact</a></li>
+                <li class="footer__nav--item"><a href="About.html" class="header__nav--link">About</a></li>
+                <li class="footer__nav--item"><a href="Service.html" class="header__nav--link">Service</a></li>
+                <li class="footer__nav--item"><a href="Portfolio.html" class="header__nav--link">Portfolio</a></li>
+                <li class="footer__nav--item"><a href="Contact.html" class="header__nav--link">Contact</a></li>
                 <li class="footer__nav--item"><a href="http://www.kiteretsubmw.com/" class="header__nav--link" target="_blank">Blog</a></li>
             </ul>
             <div class="footer__nav--sns">
@@ -128,4 +153,5 @@
     </footer>
 
 </body>
+<script src="https://kiteretsu18.github.io/portfolio/script.js"></script>
 </html>
