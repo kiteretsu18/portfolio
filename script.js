@@ -1,5 +1,6 @@
 
 
+
 document.addEventListener('scroll', function() {
     const elements = document.querySelectorAll('.main__nav--item');
     const windowHeight = window.innerHeight;
@@ -13,11 +14,17 @@ document.addEventListener('scroll', function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    var hamburger = document.querySelector('.hamburger-menu');
-    var nav = document.querySelector('.header__nav');
 
-    hamburger.addEventListener('click', function () {
-        nav.classList.toggle('active');
-    });
-});
+let nav = document.querySelector("#navArea");
+let btn = document.querySelector(".toggle__btn");
+let mask = document.querySelector("#mask");
+
+btn.onclick = () => {
+    nav.classList.toggle("open");
+};
+
+mask.onclick = () => {
+    nav.classList.toggle("open");
+};
+
+
